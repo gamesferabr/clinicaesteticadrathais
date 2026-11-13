@@ -200,10 +200,10 @@ dialog.lb img{max-width:94vw;max-height:90vh;border-radius:18px;cursor:zoom-out}
 .step p{color:var(--muted);font-size:16px}
 
 /* consultório */
-.place{padding:110px max(24px,calc((100vw - var(--max)) / 2 + 24px));display:grid;grid-template-columns:.82fr 1.18fr;gap:88px;align-items:center;background:var(--bg)}
-.place .ph{position:relative;isolation:isolate;justify-self:center;width:min(100%,470px,calc((100svh - 200px) * .85));aspect-ratio:1000/1173}
-.place .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 100%;border-radius:var(--r)}
-.place .ph::after{content:"";position:absolute;inset:16px -16px -16px 16px;border:1px solid var(--accent);border-radius:var(--r);z-index:-1;opacity:.55}
+.place{padding:110px max(24px,calc((100vw - var(--max)) / 2 + 24px));display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center;background:var(--bg)}
+.place .ph{position:relative;isolation:isolate;justify-self:center;width:min(100%,560px,calc((100svh - 120px) * .85));aspect-ratio:1000/1173}
+.place .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:var(--r);filter:contrast(1.08) saturate(1.12);box-shadow:0 34px 70px rgba(42,20,24,.28)}
+.place .ph::after{content:"";position:absolute;inset:22px -22px -22px 22px;background:var(--accent);border-radius:var(--r);z-index:-1}
 .place-copy{display:grid;gap:26px;align-content:center}
 .facts{margin:0;display:grid}
 .facts div{display:grid;grid-template-columns:120px 1fr;gap:16px;padding-block:16px;border-top:1px solid var(--line);font-size:16px}
